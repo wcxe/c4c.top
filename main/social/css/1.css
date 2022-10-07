@@ -1,0 +1,128 @@
+.wellcome {
+    color: orange;
+    font-size: 20px;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Dirtyelectro;
+    width: 250px;
+    text-align: center;
+}
+
+.logo_wellcome {
+    color: orange;
+    font-size: 30px;
+    position: absolute;
+    top: 25.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Dirtyelectro;
+    text-align: center;
+}
+
+.logo_wellcome:hover {
+    transition: all 0.3s ease 0s;  /* 同时加入动画效果 */
+    color: white;
+    font-size: 31px;
+}
+
+
+.account {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: orange;
+    border: none;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    /* PUBGM字体 英文 */
+    outline: none;
+    border-radius: 5px;
+}
+
+.password {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: orange;
+    border: none;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    /* PUBGM字体 英文 */
+    outline: none;
+    border-radius: 5px;
+}
+
+.login {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    background-color: orange;
+    border: none;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    /* PUBGM字体 英文 */
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    /* 取消链接文字下划线 */
+    color: black;
+}
+
+.login:hover {
+    width: 90px;
+    box-shadow: 0px 0px 15px orange;
+    transition: all 0.3s ease 0s;
+    /* 同时加入动画效果 */
+    color: white;
+    font-size: 32px;
+}
+
+.copyright {
+    color: orange;
+    font-size: 15px;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel', serif;
+    /* 航海体 500体 英文 */
+    width: 320px;
+    text-align: center;
+
+}
+
+.copyright:hover {
+    color: white;
+    font-size: 15.5px;
+    transition: all 0.3s ease 0s;
+    /* 同时加入动画效果 */
+}
+
+.dc {
+    color: orange;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel', serif;
+    /* 航海体 500体 英文 */
+    width: 350px;
+    text-align: center;
+}
+
+.dc:hover {
+    color: white;
+    font-size: 11px;
+    transition: all 0.3s ease 0s;
+    /* 同时加入动画效果 */
+}

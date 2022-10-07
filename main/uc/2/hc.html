@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" onselectstart="return false">
+<!-- 禁止选中文字 CAN NOT COPY-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body bgcolor="black">
+
+    <title>DirtyElectro - Health Code</title>
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="font/font_ttf.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="topnav.css">
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/inside.css">
+    <link rel="stylesheet" href="css/admin.css">
+
+    <script>
+        function time() {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+
+            var hour = date.getHours();
+            hour = hour < 10 ? "0" + hour : hour;
+            var minute = date.getMinutes();
+            minute = minute < 10 ? "0" + minute : minute;
+            var second = date.getSeconds();
+            second = second < 10 ? "0" + second : second;
+            var currentTime = year + "-" + month + "-" + day + "   " + hour + ":" + minute + ":" + second;
+            document.getElementById("time").innerHTML = currentTime;
+        }
+        setInterval("time()", 1000);
+
+
+
+        function password() {
+            var testV = 1;
+            var pass1 = prompt('Please enter password again!', '');
+            while (testV < 3) {
+                if (!pass1)
+                    history.go(-1);
+                if (pass1 == "5211") {//初始密码123   
+                    alert('Successful Login!');
+                    break;
+                }
+                testV += 1;
+                var pass1 =
+                    prompt('Password Error!:');
+            }
+            if (pass1 != "password" & testV == 3)
+                history.go(-1);
+            return " ";
+        }
+        document.write(password());   
+    </script>
+
+    </head>
+
+    <body>
+        <nav id="topnav">
+            <a id="logo" class="nav-link" href="#">Dirty&nbsp;Electro</a>
+            <a id="about" class="contact" href="https://wcxe.github.io/a/about.html">Contact&nbsp;US</a>
+        </nav>
+
+        <div class="outlook-father">
+
+            <div class="outlook">
+
+                <div class="toplook">
+                    <p class="name">name:YuZeQi</p>
+                    <p class="idcode">360121********5211[DeID:2]</p>
+                    <hr class="topline">
+                </div>
+
+                <img src="img/health_code_black.png" class="imgcode">
+
+                <span class="time_now" id="time">Loading...</span>
+                <div class="bottomlook">
+                    <p class="logode">Chang Tong Ma</p>
+                </div>
+
+            </div>
+
+            <p class="copyright">H-estrella All rights reserved &copy; 2022</p>
+
+            <p class="dc">Designed & Created by Chenghsuan &copy; Oct,6th 2022</p>
+
+        </div>
+
+
+
+    </body>
+
+</html>

@@ -1,0 +1,53 @@
+/* 字体链接 */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.sc {
+    font-family: 'Noto Sans SC', sans-serif;
+    /* 正常体 粗体 简体中文 */
+}
+
+.font_demos {
+    font-family: 'Bebas Neue', cursive;
+    /* 长体英文 */
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    /*长体简体中文*/
+    font-family: 'Oswald', sans-serif;
+    /* 长体带小写英文 */
+    font-family: 'Permanent Marker', cursive;
+    /* 马克笔英文 */
+    font-family: 'Mochiy Pop One', sans-serif;
+    /* 正常粗萌体日文 */
+    font-family: 'Noto Sans TC', sans-serif;
+    /* 正常体 粗体 繁体中文 */
+    font-family: 'Noto Sans SC', sans-serif;
+    /* 正常体 粗体 简体中文 */
+    font-family: 'Noto Sans', sans-serif;
+    /* 正常体 粗体 俄罗斯语 */
+    font-family: 'Rubik Dirt', cursive;
+    /* 战争体英文 */
+    font-family: 'Aboreto', cursive;
+    /* 维基体 英文 */
+    font-family: 'Cinzel', serif;
+    /* 航海体 500体 英文 */
+    font-family: 'Teko', sans-serif;
+    /* PUBGM字体 英文 */
+    font-family: 'Qwitcher Grypen', cursive;
+    /* 卷笔英文 */
+    font-family: 'Jomhuria', cursive;
+    /* 阿拉伯字母版宋体 可用于维吾尔语、乌尔都语，波斯语等等 */
+
+
+}

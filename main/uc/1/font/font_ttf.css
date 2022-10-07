@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: Xiaomi;
+    src: url('./ttf/MiSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: Dirtyelectro;
+    src: url('./ttf/DancingVampyrish.ttf');
+}
+
+@font-face {
+    font-family: Takeover;
+    src: url('./ttf/Take_cover.ttf');
+}
+
+@font-face {
+    font-family: PUBG;
+    src: url('./ttf/HeadlinerNo.45 DEMO.ttf');
+}
+
+@font-face {
+    font-family: Song;
+    src: url('./ttf/Classic Song ti Font.TTF');
+}

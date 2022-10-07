@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="en" onselectstart="return false"> <!-- 禁止选中文字 CAN NOT COPY-->
+<head>
+    <meta charset="UTF-8">
+    <title>wuyujin1997</title>
+    <script>
+        copyInnerTextOfCell = (event) => {
+            let innerText = event.target.innerText;
+            var tmpInput = document.createElement("input");
+            document.body.appendChild(tmpInput);
+            tmpInput.value = innerText;
+            tmpInput.select();
+            document.execCommand("cut"); // copy
+            tmpInput.remove();
+            alert("Copied" + innerText);
+        }
+    </script>
+</head>
+
+<body>
+
+    <p onclick="copyInnerTextOfCell(event)">这是 p 标签内容</p>
+    <div onclick="copyInnerTextOfCell(event)">这是 div 标签内容</div>
+    <span onclick="copyInnerTextOfCell(event)">这是 span 标签内容</span>
+
+</body>
+
+</html>

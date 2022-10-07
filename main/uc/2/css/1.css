@@ -1,0 +1,41 @@
+
+.copyright {
+    color: orange;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel', serif;
+    /* 航海体 500体 英文 */
+    width: 320px;
+    text-align: center;
+
+}
+
+.copyright:hover {
+    color: white;
+    font-size: 15.5px;
+    transition: all 0.3s ease 0s;
+    /* 同时加入动画效果 */
+}
+
+.dc {
+    color: orange;
+    font-size: 10px;
+    position: absolute;
+    bottom: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel', serif;
+    /* 航海体 500体 英文 */
+    width: 350px;
+    text-align: center;
+}
+
+.dc:hover {
+    color: white;
+    font-size: 11px;
+    transition: all 0.3s ease 0s;
+    /* 同时加入动画效果 */
+}

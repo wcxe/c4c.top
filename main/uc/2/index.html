@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" onselectstart="return false">
+<!-- 禁止选中文字 CAN NOT COPY-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body bgcolor="black">
+
+    <title>DirtyElectro - Login</title>
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="font/font_ttf.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="topnav.css">
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/keyboard.css">
+    </head>
+
+    <style>
+        /*
+        .a {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 300px;
+            height: 400px;
+
+            background-color: black;
+        }
+*/
+        .login {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            background-color: black;
+
+            height: 300px;
+            width: 100%;
+        }
+
+        .button_login {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 100px;
+            height: 30px;
+
+            border: none;
+
+            font-size: 30px;
+
+            background-color: orange;
+            font-family: 'Bebas Neue', cursive;
+            /* 长体英文 */
+
+            border-radius: 30px;
+
+            outline: none;
+            /*选中时取消边缘线*/
+        }
+
+        .button_login a {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button_login:hover {
+            width: 105px;
+            height: 35px;
+
+            box-shadow: 0px 0px 15px orange;
+
+            transition: all 0.2s ease 0s;
+            /* 动画效果 */
+        }
+
+        .account {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 250px;
+            height: 30px;
+
+            border: none;
+
+            font-size: 30px;
+
+            background-color: orange;
+            font-family: 'Bebas Neue', cursive;
+            /* 长体英文 */
+
+            outline: none;
+            /*选中时取消边缘线*/
+        }
+
+        .account a {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .account_out {
+            position: absolute;
+            top: 39%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 260px;
+            height: 40px;
+
+            background-color: orange;
+
+            border-radius: 1px;
+        }
+
+        .psw {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 250px;
+            height: 30px;
+
+            border: none;
+
+            font-size: 30px;
+
+            background-color: orange;
+            font-family: 'Bebas Neue', cursive;
+            /* 长体英文 */
+
+            outline: none;
+            /*选中时取消边缘线*/
+        }
+
+        .psw a {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .psw_out {
+            position: absolute;
+            top: 59%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 260px;
+            height: 40px;
+
+            background-color: orange;
+
+            border-radius: 1px;
+        }
+
+        .delogo_login {
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            font-size: 20px;
+            font-family: Dirtyelectro;
+            color: white;
+            width: 100%;
+
+            text-align: center;
+        }
+    </style>
+
+    <body>
+        <nav id="topnav">
+            <a id="logo" class="nav-link" href="#">Dirty&nbsp;Electro</a>
+            <a id="about" class="contact" href="https://wcxe.github.io/a/about.html">Contact&nbsp;US</a>
+        </nav>
+
+
+
+        <div class="a">
+            <div class="login">
+                <p class="delogo_login">Health Code</p>
+                <div class="text">
+                    <i class="fa fa-user-o" aria-hidden="true"></i><!-- Font Awesome -->
+                    <div class="account_out"></div><input type="text" placeholder="  Username[Limit 14 characters]" id="name" class="account" autocomplete="off"  maxlength="14">
+                </div>
+                <div class="text">
+                    <i class="fa fa-lock" aria-hidden="true"></i><!-- Font Awesome -->
+                    <div class="psw_out"></div><input type="password" placeholder="  Password[Limit 8 characters]" id="pass" class="psw" autocomplete="off" maxlength="8">
+                </div>
+                <button class="button_login" onclick="login()"><a>Login</a></button>
+            </div>
+
+            <script type="text/javascript">
+                function login() {
+                    var username = document.getElementById("name").value;
+                    var password = document.getElementById("pass").value;
+                    if (username == "yzq" && password == "5211") {
+                        alert("Successful login!");
+                        window.location.href = "hc.html";
+                        return false;
+                    }
+                    else {
+                        alert("Password error!");
+                        window.location.href = "index.html";
+                        return false;
+                    }
+                }
+
+
+
+                $('body').height($('body')[0].clientHeight);
+            </script>
+
+
+        </div>
+
+
+
+
+        <p class="copyright">H-estrella All rights reserved &copy; 2022</p>
+
+        <p class="dc">Designed & Created by Chenghsuan &copy; Oct,6th 2022</p>
+
+
+    </body>
+
+</html>

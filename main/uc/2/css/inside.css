@@ -1,0 +1,112 @@
+.outlook-father {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 352px;
+    height: 552px;
+    background-color: orange;
+}
+
+.outlook {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 350px;
+    height: 550px;
+    background-color: white;
+}
+
+.toplook {
+
+    width: 100%;
+    height: 100px;
+
+    background-color: black;
+}
+
+.bottomlook {
+    width: 100%;
+    height: 100px;
+
+    background-color: black;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.name {
+    position: absolute;
+    top: 8%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    color: orange;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    /* 长体英文 */
+}
+
+.idcode {
+    position: absolute;
+    top: 12.5%;
+    left: 38.5%;
+    transform: translate(-50%, -50%);
+    color: orange;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    /* 长体英文 */
+}
+
+.topline {
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 0.1px;
+    border-color: orange;
+    background-color: orange;
+}
+
+.imgcode {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logode {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.192);
+    font-size: 25px;
+    font-family: Dirtyelectro;
+    width: 100%;
+    text-align: center;
+}
+
+.time_now {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange;
+    font-size: 22px;
+    font-family: Dirtyelectro, 'Bebas Neue';
+    width: 100%;
+    text-align: center;
+}
+
+.time_now:hover {
+    color: white;
+    font-size: 23px;
+    transition: all 0.3s ease 0s;
+}
