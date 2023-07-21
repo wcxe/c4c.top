@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" onselectstart="return false">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>来自轩轩的邀请</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontbase.css">
+
+
+</head>
+
+<body>
+    <p>钥钥，我们可以出去玩吗?</p>
+    <img src="cat-begging.gif">
+    <button id="botao1">来吧~ 宝ber😍</button>
+    <button id="botao2">不</button>
+
+    <script>
+        const button2 = document.getElementById('botao2');
+        let left = 40;
+        button2.addEventListener('mouseover', function () {
+            if (left == 40) {
+                left = 10;
+            } else {
+                left = 40;
+            }
+            this.style.left = left + '%';
+        });
+
+    </script>
+    <script>document.getElementById('botao1').addEventListener('click', function () {
+            alert('好耶😍爱你哟，钥宝❤️');
+        });
+    </script>
+
+    <div class="bottom">
+        <div class="avatar-zcy"></div>
+        <img src="wcx-avatar.jpg" alt="" class="avatar-wcx">
+        
+
+        <img src="zcy-avatar.jpg" alt="" class="avatar-zcy">
+
+        <p class="center">与你相恋<br>
+            第111天</p>
+    </div>
+
+</body>
+
+</html>
