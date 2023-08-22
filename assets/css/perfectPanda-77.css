@@ -1,0 +1,54 @@
+/* Source URL : https://uiverse.io/alexmaracinaru/perfect-panda-77 */
+
+.BtnJoin {
+  position: absolute;
+  right: 15px;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica, "sans-serif";
+  transition: all .2s;
+  padding: 10px 20px;
+  /* border-radius: 100px; */
+  border-radius: 1.5px;
+  /* background: transparent; */
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  background: rgb(200, 0, 0);
+  cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+text-decoration: none;
+  color: rgb(230, 230, 230);
+}
+
+.BtnJoin:hover {
+  /* background: orange; */
+  background: red;
+  border-radius: 100px;
+  transition: 1s;
+  cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnJoin>svg {
+  display: none;
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+  cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+  
+}
+
+.BtnJoin:hover svg {
+  transform: translateX(5px);
+  cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnJoin:active {
+  transform: scale(0.95);
+  cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnJoin span {
+  cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}

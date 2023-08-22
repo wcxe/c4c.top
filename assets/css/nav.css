@@ -1,0 +1,179 @@
+@media screen and (max-width:1000px) {
+
+    .top-nav {
+        background-color: rgb(25, 25, 25);
+        width: 100%;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        height: 50px;
+
+        z-index: 9999;
+
+        color: rgb(210, 210, 210);
+
+        overflow: hidden
+    }
+
+    @media print {
+        .top-nav {
+            position: absolute;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+
+        color: white;
+
+        transform: translate(0%, -50%);
+    }
+
+    .btn-nav-Expand {
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+        text-decoration: none;
+
+        transform: translate(0%, -50%);
+
+        background-color: transparent;
+        border-style: none;
+
+        color: rgb(210, 210, 210);
+    }
+
+    .btn-nav-Expand svg {
+        height: 30px;
+        width: 30px;
+    }
+
+    .btn-nav-Expand svg:hover {
+        color: white;
+        transition: all ease 0.3s;
+    }
+
+    .btn-nav-Collapse {
+        display: none;
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+        text-decoration: none;
+
+        transform: translate(0%, -50%);
+
+        background-color: transparent;
+        border-style: none;
+
+        color: rgb(210, 210, 210);
+    }
+
+    .btn-nav-Collapse svg {
+        height: 30px;
+        width: 30px;
+    }
+
+    .btn-nav-Collapse svg:hover {
+        color: white;
+        transition: all ease 0.3s;
+    }
+
+    .right-nav {
+        display: none;
+
+        position: fixed;
+        right: 0;
+        top: 0;
+
+        height: 100%;
+        width: 218px;
+
+        z-index: 9998;
+
+        background-color: rgb(25, 25, 25);
+
+        color: white;
+
+        overflow: hidden;
+    }
+
+    .right-nav-content {
+        position: absolute;
+        left: 50%;
+        top: 50px;
+
+        transform: translate(-50%, 0%);
+
+        background-color: transparent;
+    }
+
+    .right-nav-content a {
+        font-size: 1.2em;
+
+        text-decoration: none;
+        color: white;
+    }
+
+    .right-nav-content a:hover {
+        color: rgb(0, 255, 255);
+        transition: all ease-in 0.3s;
+    }
+
+    .title-right-nav {
+        font-size: 1.5em;
+    }
+
+    .right-nav-social-media {
+        position: absolute;
+        left: 50%;
+        bottom: 100px;
+
+        transform: translate(-50%, 0%);
+
+        font-size: 1em;
+
+        width: 80%;
+        background-color: transparent;
+
+        color: white;
+    }
+
+    .right-nav-social-media a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .right-nav-social-media svg {
+        width: 40px;
+        height: 40px;
+        color: white;
+    }
+
+    .right-nav-social-media svg:hover {
+        color: rgb(0, 255, 255);
+        transition: all ease-in 0.3s;
+    }
+
+    .right-nav-footer {
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+
+        transform: translate(-50%, 0%);
+
+        font-size: 0.8em;
+
+        width: 80%;
+        background-color: transparent;
+
+        color: rgb(180, 180, 180);
+    }
+
+}

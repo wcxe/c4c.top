@@ -1,0 +1,168 @@
+* {
+    cursor: url("../cursor/SUPER-BLACK-36325/normal.cur"), default;
+}
+
+body,
+html {
+    cursor: url("../cursor/SUPER-BLACK-36325/normal.cur"), auto;
+}
+
+button {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+a {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnForm {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnForm svg {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnForm span {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+p {
+    cursor: url("../cursor/SUPER-BLACK-36325/text.cur"), text;
+}
+
+.container-beginning {
+    cursor: url("../cursor/SUPER-BLACK-36325/normal.cur"), default;
+}
+
+.container-beginning p {
+    cursor: url("../cursor/SUPER-BLACK-36325/normal.cur"), default;
+}
+
+.container-beginning span {
+    cursor: url("../cursor/SUPER-BLACK-36325/normal.cur"), default;
+}
+
+span {
+    cursor: url("../cursor/SUPER-BLACK-36325/text.cur"), text;
+}
+
+.BtnScroll-top {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top svg {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top a {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top p {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top path {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top:hover .textBackToTop {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top:hover .arrowUP {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.textBackToTop {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.arrowUP path {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.btn-nav-Expand {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.btn-nav-Expand svg {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.btn-nav-Collapse {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.btn-nav-Collapse svg {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.right-nav-social-media svg {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.right-nav-social-media a {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.right-nav-social-media img {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.container-contact {
+    cursor: url("../cursor/SUPER-BLACK-36325/help.cur"), help;
+}
+
+.container-contact div {
+    cursor: url("../cursor/SUPER-BLACK-36325/help.cur"), help;
+}
+
+.InputContent {
+    cursor: url("../cursor/SUPER-BLACK-36325/handwriting.cur"), text;
+}
+
+.InputReport {
+    cursor: url("../cursor/SUPER-BLACK-36325/handwriting.cur"), text;
+}
+
+.BtnSubmitReportPosition {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnSubmitReport {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnSubmitReport button {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnSubmitReport:hover {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnSubmitReport:hover::after {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.arrowUP path {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.textBackToTop {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top:hover .textBackToTop {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}
+
+.BtnScroll-top:hover .arrowUP {
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+}

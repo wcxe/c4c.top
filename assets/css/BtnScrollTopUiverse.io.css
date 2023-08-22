@@ -1,0 +1,64 @@
+@media screen and (max-width:1000px) {
+
+  .BtnScroll-top {
+    display: none;
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(#dadada, #e7e7e7);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+    border: none;
+    z-index: 40;
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+  }
+
+  .arrowUP path {
+    fill: rgb(40, 40, 40);
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+  }
+
+  .textBackToTop {
+    font-size: 0.7em;
+    width: 100px;
+    position: absolute;
+    color: rgb(210, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -18px;
+    opacity: 0;
+    transition-duration: .7s;
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+  }
+
+  .BtnScroll-top:hover .textBackToTop {
+    opacity: 1;
+    transition-duration: .7s;
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+  }
+
+  .BtnScroll-top:hover .arrowUP {
+    animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    cursor: url("../cursor/SUPER-BLACK-36325/link.cur"), pointer;
+  }
+
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+}
