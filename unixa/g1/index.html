@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta id="WebSkip">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unixa™ - Unified examination score query platform</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&amp;display=swap');
+    
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ 
+  
+  .font {
+      font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik Doodle Shadow', system-ui;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    * {
+    border:none;
+        padding:0;
+        margin:0;
+        font-family: 'Poppins', sans-serif;
+        overflow:hidden;
+    }
+    
+    body {
+        background:rgb(230,230,230);
+    }
+    
+    .topnav {
+    position: fixed;
+    background:rgb(25,25,25);
+    color:rgb(240,240,240);
+    width: 100%;
+    height: 50px;
+    }
+    
+    #logo {
+        position:absolute;
+        left:15px;
+        top:15px;
+        font-size:20px;
+        font-family: 'Rubik Doodle Shadow', system-ui;
+    }
+    
+    #nav_rb {
+        position:absolute;
+        right:15px;
+        top:15px;
+        text-decoration:none;
+        color:rgb(240,240,240);
+        font-size:15px;
+    }
+    
+    .main {
+        position:absolute;
+        left:50%;
+        top:120px;
+        background:transparent;
+        width:80%;
+        min-height:300px;
+        transform: translateX(-50%);
+    }
+    
+    .title {
+                font-size:25px;
+        text-align:center;
+    }
+    
+    .Time {
+        position:absolute;
+        left:50%;
+        bottom:10px;
+        transform: translateX(-50%);
+        width:100%;
+        text-align:center;
+    }
+    
+        .bottom {
+        position:absolute;
+        bottom:0;
+        text-align:center;
+        font-size:8px;
+        width:100%;
+        background:rgb(60,60,60);
+        color:rgb(160,160,160);
+    }
+    
+    .grade {
+        width:80%;
+        height:100px;
+        background:rgb(225,225,225);
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+    
+    .num {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        font-size:3em;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="topnav">
+            <span id="logo">Unixa™</span>
+            <a href="https://c4c.top" id="nav_rb" target="_blank">About Euphøria</a>
+        </div>
+        
+        
+        
+        <div class="main">
+            <p class="title">[G1] Exam results</p>
+            <div class="grade">
+                <p class="num" id="Num" style="color:green">NaN</p>
+            </div>
+<p class="Time" id="time">Current Time Loading...</p>
+
+<img src="https://c4c.top/unixa/code.svg" clss="Code" style="position:absolute;
+        left:50%;
+        bottom:15px;
+        transform: translateX(-50%);
+        height:100px;
+        width:150px;">
+
+</div>
+
+<script>
+    function NowTime() {
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time;
+    
+    document.getElementById("time").innerHTML=dateTime
+    
+    }
+</script>
+
+<script>
+    window.onload = function() {
+
+ //每1秒刷新时间
+
+ setInterval("NowTime()", 1000);
+
+ };
+</script>
+
+</div>
+        
+        <div class="bottom">
+            <br>
+        2024©Euphøria Hsüan Studio(HK) All Rights Reserved.
+        <br>
+        No. 126 Heng On Street, Kwun Tong District, Hong Kong
+        <br>
+        Postal Code:999077&nbsp;&nbsp;&nbsp;&nbsp;Tele:+852 6541 2656
+        <br>
+        <br>
+        </div>
+</body>
+</html>
